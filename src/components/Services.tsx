@@ -21,24 +21,6 @@ const Services = () => {
       title: 'Database Design',
       description: 'Designing and optimizing database schemas for both SQL and NoSQL databases.',
       technologies: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Firebase']
-    },
-    {
-      icon: Globe,
-      title: 'Full-Stack Solutions',
-      description: 'End-to-end development of web applications from concept to deployment.',
-      technologies: ['MERN Stack', 'MEAN Stack', 'JAMstack', 'Serverless', 'Docker']
-    },
-    {
-      icon: Smartphone,
-      title: 'Mobile Development',
-      description: 'Cross-platform mobile applications using React Native and modern mobile frameworks.',
-      technologies: ['React Native', 'Flutter', 'iOS', 'Android', 'Expo']
-    },
-    {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Creating beautiful and intuitive user experiences with modern design principles.',
-      technologies: ['Figma', 'Adobe XD', 'Sketch', 'Prototyping', 'User Research']
     }
   ];
 
@@ -49,12 +31,14 @@ const Services = () => {
     { name: 'Next.js', color: 'from-gray-700 to-gray-900' },
     { name: 'Node.js', color: 'from-green-400 to-green-600' },
     { name: 'Python', color: 'from-blue-500 to-yellow-500' },
+    { name: 'FastAPI', color: 'from-teal-500 to-teal-700' }, 
     { name: 'Java', color: 'from-red-500 to-orange-500' },
+    { name: 'Spring Boot', color: 'from-green-700 to-lime-600' },
     { name: 'MongoDB', color: 'from-green-500 to-green-700' },
     { name: 'PostgreSQL', color: 'from-blue-600 to-indigo-600' },
     { name: 'Docker', color: 'from-blue-400 to-blue-600' },
-    { name: 'AWS', color: 'from-orange-400 to-orange-600' },
     { name: 'Git', color: 'from-orange-500 to-red-500' },
+    { name: 'Postman', color: 'from-orange-400 to-orange-500' },
   ];
 
   return (

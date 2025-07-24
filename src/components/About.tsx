@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Code, Coffee, Users, Award } from 'lucide-react';
+import { CodeXml, GraduationCap, Cpu, Award } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Code, label: 'Projects Completed', value: '50+' },
-    { icon: Coffee, label: 'Cups of Coffee', value: '1000+' },
-    { icon: Users, label: 'Happy Clients', value: '25+' },
-    { icon: Award, label: 'Years Experience', value: '3+' },
+    { icon: CodeXml, label: 'Full-Stack Projects', value: '5+' },
+    { icon: Cpu, label: 'Technologies & Frameworks Worked With', value: '10+' },
+    { icon: GraduationCap, label: 'Computer Scienece & Enginner', value: 'Education' },
+    { icon: Award, label: 'Internship Experience', value: '2' },
   ];
 
   return (
@@ -92,9 +92,9 @@ const About = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 ">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl border border-gray-200 dark:border-gray-700">
+            <div key={index} className="text-center p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:-translate-y-2 transition-all duration-300 border border-gray-200 dark:border-gray-700">
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <stat.icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               </div>
