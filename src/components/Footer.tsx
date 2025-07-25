@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Alex Johnson
+              Neel Patel
             </h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Full-stack developer passionate about creating beautiful, functional web applications 
@@ -65,9 +65,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
-              <p>alex.johnson@email.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>nealpatel2004@gmail.com</p>
+              <p>Ahmedabad, IND</p>
             </div>
           </div>
         </div>
@@ -75,9 +74,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center text-gray-400 mb-4 md:mb-0">
-            <span>© {currentYear} Alex Johnson. Made with</span>
-            <Heart className="w-4 h-4 text-red-500 mx-1" />
-            <span>and lots of coffee</span>
+            <span>© {currentYear} Neel Patel. All rights reserved. </span>
           </div>
           
           <button

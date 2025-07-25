@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed px-2 sm:px-0">
-              Full-Stack Developer passionate about creating beautiful, functional web applications with modern technologies.
+              "Full-Stack Developer passionate about creating beautiful, functional web applications — with a growing focus on AI agents and intelligent systems."  
             </p>
 
             {/* CTA Buttons - Better mobile stacking */}
@@ -108,7 +108,7 @@ const Hero = () => {
                   alt="Neel Patel Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 rounded-full"></div>
+                <div className="absolute inset-0 rounded-full"></div>
               </div>
 
               {/* Floating elements - Responsive sizing */}

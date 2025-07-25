@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Send, CheckCircle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -42,16 +42,16 @@ const Contact = () => {
       value: 'nealpatel2004@email.com',
       href: 'mailto:alex.johnson@email.com'
     },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
-    },
+  {
+    icon: Linkedin,
+    label: 'LinkedIn',
+    value: 'linkedin.com/in/neel-patel',
+    href: 'https://www.linkedin.com/in/neel-patel-3536ab301/'
+  },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Ahmedabad, IND',
       href: '#'
     }
   ];
