@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed px-2 sm:px-0">
-              "Full-Stack Developer passionate about creating beautiful, functional web applications — with a growing focus on AI agents and intelligent systems."  
+              "Full-Stack Developer passionate about creating beautiful, functional web applications — with a growing focus on AI agents and intelligent systems."
             </p>
 
             {/* CTA Buttons - Better mobile stacking */}
@@ -53,7 +53,7 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="/NEEL_J_PATEL_CV.pdf"
+                href="/Neel Patel CV 2026.pdf"
                 download
                 className="px-6 py-3 sm:px-8 sm:py-4 border-2 border-blue-600 text-blue-600
                   dark:text-blue-400 dark:border-blue-400
